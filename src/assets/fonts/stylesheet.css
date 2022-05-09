@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Sunday';
+    src: url('Sunday-Regular.woff2') format('woff2'),
+        url('Sunday-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hallowen Bold Grunge';
+    src: url('HallowenBoldGrunge.woff2') format('woff2'),
+        url('HallowenBoldGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

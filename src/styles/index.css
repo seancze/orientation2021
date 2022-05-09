@@ -1,0 +1,30 @@
+@import "./custom-utilities.postcss";
+
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Halloween Bold Grunge";
+    src: local("Halloween Bold Grunge"),
+      url(../assets/fonts/Halloween-Bold-Grunge.otf) format("opentype"),
+      url(../assets/fonts/Halloween-Bold-Grunge.woff2) format("woff2"),
+      url(../assets/fonts/Halloween-Bold-Grunge.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: "Sunday Regular";
+    src: local("Sunday Regular"),
+      url(../assets/fonts/Sunday-Regular.otf) format("opentype"),
+      url(../assets/fonts/Sunday-Regular.woff2) format("woff2"),
+      url(../assets/fonts/Sunday-Regular.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: "Courgette";
+    src: local("Courgette-Regular"),
+      url(../assets/fonts/Courgette-Regular.ttf) format("truetype");
+  }
+}
